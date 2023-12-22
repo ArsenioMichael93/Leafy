@@ -30,7 +30,7 @@
     background-color: white;
     border-radius: 30px;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .searchIcon {
@@ -41,10 +41,18 @@
 .searchInput {
     border: none;
     width: 70%;
+    border: none;
+    border-radius: 0.5px;
+    padding: 0 1rem;
+    color: rgb(192, 31, 31);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .searchInput:focus {
     outline: none;
+    color:  rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 .topbarRight {
